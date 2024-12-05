@@ -29,7 +29,7 @@ export default function Dash() {
                   className="text-gray-400 hover:text-[#8FB2F0]"
                 />
               </a>
-              <a href="https://instagram.com/soclarence">
+              <a href="https://instagram.com/sirOkhale">
                 <FaInstagram
                   size={18}
                   className="text-gray-400 hover:text-[#8FB2F0]"
