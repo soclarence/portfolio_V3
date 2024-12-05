@@ -86,7 +86,7 @@ export default function Dash() {
         <div id="projects" className="text-left mt-14">
           <h4 className="text-gray-500 font-semibold mb-5">Projects</h4>
           <section className="space-y-10">
-            {data.map((data, i) => (
+            {data.map((data, i: number) => (
               <Projects
                 key={i}
                 title={data.title}

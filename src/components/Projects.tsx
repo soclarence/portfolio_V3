@@ -16,7 +16,7 @@ export default function Projects({ title, body, tools, link }: Project) {
 
         <section className="mt-3 flex flex-wrap items-center justify-start gap-2">
           {tools &&
-            tools.map((items: String, i) => (
+            tools.map((items: string, i: number) => (
               <div
                 key={i}
                 className="rounded-full bg-[#2350A1] px-3 py-2 w-fit text-xs"
