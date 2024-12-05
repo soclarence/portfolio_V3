@@ -17,7 +17,7 @@ export default function Dash() {
           <div className="rounded-full h-20 w-20 bg-gray-500 overflow-hidden">
             <img src={dp} alt="" className="w-full h-full object-cover" />
           </div>
-          <div className="w-[75%] text-left">
+          <div className="w-[65%] sm:w-[75%] text-left">
             <h3 className="font-semibold text-lg">Clarence Aigbuza</h3>
             <p className="text-gray-400 text-base">
               Frontend Developer based in Nigeria
