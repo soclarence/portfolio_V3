@@ -1,5 +1,5 @@
 import { ArrowLeft } from "iconsax-react";
-import { archive, ArchiveItem } from "../data/Archive";
+import { archive, ArchiveItem } from "../data/archive";
 import { Link } from "react-router-dom";
 
 export default function Archive() {
