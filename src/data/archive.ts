@@ -1,4 +1,11 @@
-const archive = [
+export interface ArchiveItem {
+  project: string;
+  tools: string[];
+  made: string;
+  link: string;
+}
+
+export const archive: ArchiveItem[] = [
   {
     project: "Locka",
     tools: ["Vite Js", "Javascript"],
@@ -56,5 +63,3 @@ const archive = [
     link: "https://apps.apple.com/ng/app/forest-the-social-money-app/id6449906149",
   },
 ];
-
-export default archive;
