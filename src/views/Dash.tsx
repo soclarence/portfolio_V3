@@ -74,7 +74,10 @@ export default function Dash() {
             undertake.
           </p>
           <div>
-            <a href="">
+            <a
+              href="https://drive.google.com/file/d/1tfo1iqQOupSoKCbWajD1YOyLXgaKGpuJ/view?usp=sharing"
+              target="_blank"
+            >
               <button className="cursor-pointer flex items-center justify-center space-x-2 mt-5 text-[#8FB2F0] hover:text-white ease-in transition-all hover:pl-2">
                 <Link1 size="32" />
                 <p className="font-semibold">View Full Résumé</p>
